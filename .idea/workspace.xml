@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7243d819-3d8d-405d-b60f-c69fd7036aec" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="dump_mysql" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pKU2kMNGZyW4aC9mkx6JJrIZAC" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../platform" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Application.QueryHive">
+    <configuration name="MysqlConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ti.dump_mysql.utils.MysqlConnect" />
+      <module name="dump_mysql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ti.dump_mysql.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryHive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ti.dump_mysql.hive.QueryHive" />
+      <module name="dump_mysql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ti.dump_mysql.hive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QueryHive" />
+        <item itemvalue="Application.MysqlConnect" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7243d819-3d8d-405d-b60f-c69fd7036aec" name="Default Changelist" comment="" />
+      <created>1614931070252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614931070252</updated>
+      <workItem from="1614931073174" duration="5448000" />
+      <workItem from="1614936577310" duration="333000" />
+      <workItem from="1614936921095" duration="8000" />
+      <workItem from="1614940560140" duration="9438000" />
+      <workItem from="1614993836557" duration="4462000" />
+      <workItem from="1615000064986" duration="7834000" />
+      <workItem from="1615009965643" duration="3999000" />
+      <workItem from="1615013982497" duration="23000" />
+      <workItem from="1615093578424" duration="5000" />
+      <workItem from="1615095125564" duration="3528000" />
+      <workItem from="1615169465798" duration="713000" />
+      <workItem from="1615170189851" duration="1514000" />
+      <workItem from="1615260231223" duration="60000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1145" y="628" key="FileChooserDialogImpl" timestamp="1615260288970">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1145" y="628" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1615260288970" />
+    <state width="1640" height="234" key="GridCell.Tab.0.bottom" timestamp="1615200852491">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1640" height="234" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1615200852491" />
+    <state width="1640" height="234" key="GridCell.Tab.0.center" timestamp="1615200852491">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1640" height="234" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1615200852491" />
+    <state width="1640" height="234" key="GridCell.Tab.0.left" timestamp="1615200852491">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1640" height="234" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1615200852491" />
+    <state width="1640" height="234" key="GridCell.Tab.0.right" timestamp="1615200852491">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1640" height="234" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1615200852491" />
+    <state width="1160" height="365" key="GridCell.Tab.1.bottom" timestamp="1615013968818">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1160" height="365" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1615013968818" />
+    <state width="1160" height="365" key="GridCell.Tab.1.center" timestamp="1615013968818">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1160" height="365" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1615013968818" />
+    <state width="1160" height="365" key="GridCell.Tab.1.left" timestamp="1615013968818">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1160" height="365" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1615013968818" />
+    <state width="1160" height="365" key="GridCell.Tab.1.right" timestamp="1615013968818">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1160" height="365" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1615013968818" />
+    <state x="929" y="430" key="SettingsEditor" timestamp="1615013402246">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="929" y="430" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1615013402246" />
+    <state x="1107" y="501" width="672" height="678" key="search.everywhere.popup" timestamp="1615008952138">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1107" y="501" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1615008952138" />
+  </component>
+</project>

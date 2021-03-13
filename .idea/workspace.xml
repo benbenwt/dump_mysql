@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7243d819-3d8d-405d-b60f-c69fd7036aec" name="Default Changelist" comment="" />
+    <list default="true" id="7243d819-3d8d-405d-b60f-c69fd7036aec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +18,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -102,6 +107,8 @@
       <workItem from="1615169465798" duration="713000" />
       <workItem from="1615170189851" duration="1514000" />
       <workItem from="1615260231223" duration="60000" />
+      <workItem from="1615535575725" duration="236000" />
+      <workItem from="1615537734281" duration="83000" />
     </task>
     <servers />
   </component>
@@ -109,10 +116,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1145" y="628" key="FileChooserDialogImpl" timestamp="1615260288970">
+    <state x="1145" y="628" key="FileChooserDialogImpl" timestamp="1615537815777">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1145" y="628" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1615260288970" />
+    <state x="1145" y="628" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1615537815777" />
     <state width="1640" height="234" key="GridCell.Tab.0.bottom" timestamp="1615200852491">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

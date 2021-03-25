@@ -21,6 +21,7 @@ public class MysqlConnect {
         Statement st=conn.createStatement();
         st.execute("delete from category_tbl");
         st.execute("delete from  architecture");
+        st.execute("delete from  location");
     }
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         Map<String, Map<String,Integer>> info=new HashMap<>();
@@ -35,22 +36,31 @@ public class MysqlConnect {
         Map<String, Map<String,Integer>> info=new HashMap<>();
         Map<String,Integer> tmp=new HashMap<>();
         Map<String,Integer> categoryCount=new HashMap<>();
+
         while(resultSet.next())
         {
             String category=resultSet.getString(1);
             String time=resultSet.getString(2);
             Integer value=resultSet.getInt(3);
-
-            String subTime=time.substring(0,10);
+            System.out.println(time);
+//            String subTime=time.substring(0,10);
 
             tmp.clear();
-            tmp.put(category,value);
 
-            info.put(subTime,new HashMap<>(tmp));
+
+            if(info.containsKey(time))
+            {
+                tmp=info.get(time);
+            }
+
+            tmp.put(category,value);
+            info.put(time,new HashMap<>(tmp));
 
             categoryCount.put(category,0);
+            System.out.println(info);
         }
-        System.out.println(categoryCount);
+//        System.out.println(info);
+//        System.out.println(categoryCount);
 
         LocalDate localDate=LocalDate.now();
         LocalDate startDate=localDate.minusDays(360);
@@ -111,6 +121,16 @@ public class MysqlConnect {
                ps.setInt(3,nums);
                ps.execute();
            }
+        }
+        ps.close();
+    }
+    public void insertLocation(ResultSet rs) throws SQLException {
+        PreparedStatement ps=conn.prepareStatement("insert into location(location,`value`) values(?,?)");
+        while (rs.next())
+        {
+            ps.setString(1,rs.getString(1));
+            ps.setInt(2,rs.getInt(2));
+            ps.execute();
         }
         ps.close();
     }

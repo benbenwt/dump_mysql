@@ -32,7 +32,7 @@
     </dependencies>
 
     <build>
-        <finalName>dump_mysql_jar</finalName>
+        <finalName>dump_mysql</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7243d819-3d8d-405d-b60f-c69fd7036aec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/ConvertLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/GenerateLocationJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/hive/QueryHive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/hive/QueryHive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/utils/MysqlConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/utils/MysqlConnect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +136,8 @@
       <workItem from="1616642465350" duration="5592000" />
       <workItem from="1616658669040" duration="21000" />
       <workItem from="1616658830242" duration="430000" />
+      <workItem from="1616675506243" duration="18000" />
+      <workItem from="1616743696023" duration="2309000" />
     </task>
     <servers />
   </component>
@@ -156,10 +153,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="786" y="446" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1616645849570" />
-    <state x="1145" y="628" key="FileChooserDialogImpl" timestamp="1616659258903">
+    <state x="1145" y="628" key="FileChooserDialogImpl" timestamp="1616756481766">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1145" y="628" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1616659258903" />
+    <state x="1145" y="628" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1616756481766" />
     <state width="1468" height="212" key="GridCell.Tab.0.bottom" timestamp="1616659259818">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -204,9 +201,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="513" y="377" width="672" height="677" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1616658853083" />
-    <state x="1107" y="501" width="672" height="678" key="search.everywhere.popup" timestamp="1615008952138">
+    <state x="1107" y="501" width="672" height="678" key="search.everywhere.popup" timestamp="1616756446056">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1107" y="501" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1615008952138" />
+    <state x="1107" y="501" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1616756446056" />
   </component>
 </project>

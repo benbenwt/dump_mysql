@@ -80,7 +80,7 @@ public class MysqlConnect {
             System.out.println("add ："+categoryValue);
 
             if(categoryValue!=null)
-            {//遍历不为0类别
+            {//遍历不为0类别,求出累积的数量
                 //count
                 for(Map.Entry<String,Integer> entry:categoryValue.entrySet())
                 {
@@ -88,15 +88,16 @@ public class MysqlConnect {
                     categoryCount.put(entry.getKey(),newCount);
                 }
             }
-            //当前vardate，累计categoryCount数目存储
+            //当前vardate，累计categoryCount数目存储到三元组
             for(Map.Entry<String,Integer> entry:categoryCount.entrySet())
             {
-                resultTmp.put(entry.getKey(),categoryCount.get(entry.getKey()));
-                result.put(vardate.toString(),resultTmp);
+                resultTmp.put(entry.getKey(),entry.getValue());
             }
+            result.put(vardate.toString(),new HashMap<>(resultTmp));
             System.out.println("accu :"+categoryCount);
             vardate=vardate.plusDays(1);
         }
+        System.out.println(result);
         return result;
     }
     public void  insertCategory(ResultSet resultSet) throws SQLException, ParseException {

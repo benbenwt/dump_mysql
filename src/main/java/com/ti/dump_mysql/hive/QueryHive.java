@@ -47,6 +47,14 @@ public class QueryHive {
         mysqlConnect.insertLocation(resultSet);
     }
 
+    public  void begin() throws SQLException, ClassNotFoundException, ParseException {
+        QueryHive queryHive=new QueryHive();
+        queryHive.init("jdbc:hive2://hbase:10000/platform","root","root");
+
+        queryHive.dumpArch();
+        queryHive.dumpCategory();
+        queryHive.dumpLocation();
+    }
     public static void main(String[] args) throws SQLException, ClassNotFoundException, ParseException {
         QueryHive queryHive=new QueryHive();
         queryHive.init("jdbc:hive2://hbase:10000/platform","root","root");

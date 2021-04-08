@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7243d819-3d8d-405d-b60f-c69fd7036aec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/utils/ConsumeHive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/hive/QueryHive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/hive/QueryHive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/utils/MysqlConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/utils/MysqlConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/utils/ConsumeHive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/utils/ConsumeHive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="dump_mysql" />
@@ -33,6 +37,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1pKU2kMNGZyW4aC9mkx6JJrIZAC" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
@@ -40,9 +47,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mapreduce_start" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,6 +64,7 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn clean" />
       <command value="mvn package" />
     </option>
   </component>
@@ -158,6 +167,13 @@
       <workItem from="1617016662936" duration="2270000" />
       <workItem from="1617021878007" duration="956000" />
       <workItem from="1617022937346" duration="14000" />
+      <workItem from="1617078596976" duration="189000" />
+      <workItem from="1617784029661" duration="5826000" />
+      <workItem from="1617793725539" duration="17000" />
+      <workItem from="1617794564530" duration="927000" />
+      <workItem from="1617798559950" duration="235000" />
+      <workItem from="1617802622697" duration="18000" />
+      <workItem from="1617849500606" duration="416000" />
     </task>
     <servers />
   </component>
@@ -173,26 +189,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="786" y="446" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1616645849570" />
-    <state x="1145" y="628" key="FileChooserDialogImpl" timestamp="1617018933841">
+    <state x="1145" y="628" key="FileChooserDialogImpl" timestamp="1617849544117">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1145" y="628" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1617018933841" />
-    <state width="1468" height="212" key="GridCell.Tab.0.bottom" timestamp="1617022852745">
+    <state x="1145" y="628" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1617849544117" />
+    <state width="1499" height="212" key="GridCell.Tab.0.bottom" timestamp="1617849917370">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1468" height="212" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1617022852745" />
-    <state width="1468" height="212" key="GridCell.Tab.0.center" timestamp="1617022852745">
+    <state width="1499" height="212" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1617849917370" />
+    <state width="1499" height="212" key="GridCell.Tab.0.center" timestamp="1617849917370">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1468" height="212" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1617022852745" />
-    <state width="1468" height="212" key="GridCell.Tab.0.left" timestamp="1617022852745">
+    <state width="1499" height="212" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1617849917370" />
+    <state width="1499" height="212" key="GridCell.Tab.0.left" timestamp="1617849917370">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1468" height="212" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1617022852745" />
-    <state width="1468" height="212" key="GridCell.Tab.0.right" timestamp="1617022852745">
+    <state width="1499" height="212" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1617849917370" />
+    <state width="1499" height="212" key="GridCell.Tab.0.right" timestamp="1617849917370">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1468" height="212" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1617022852745" />
+    <state width="1499" height="212" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1617849917370" />
     <state width="1160" height="365" key="GridCell.Tab.1.bottom" timestamp="1615013968818">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -213,14 +229,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="929" y="430" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1615013402246" />
+    <state x="1094" y="536" width="626" height="490" key="find.popup" timestamp="1617787536498">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1094" y="536" width="626" height="490" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1617787536498" />
     <state x="978" y="435" key="new project wizard" timestamp="1616408588374">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="978" y="435" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1616408588374" />
-    <state x="513" y="377" width="672" height="677" key="run.anything.popup" timestamp="1616658853083">
+    <state x="513" y="377" width="672" height="677" key="run.anything.popup" timestamp="1617792340931">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="513" y="377" width="672" height="677" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1616658853083" />
+    <state x="513" y="377" width="672" height="677" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1617792340931" />
     <state x="1107" y="501" width="672" height="678" key="search.everywhere.popup" timestamp="1616756446056">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

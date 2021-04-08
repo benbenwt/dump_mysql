@@ -28,7 +28,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>com.ti.dump_mysql.hive.QueryHive</mainClass>
+                  <mainClass>com.ti.dump_mysql.utils.ConsumeHive</mainClass>
                 </transformer>
               </transformers>
               <filters>

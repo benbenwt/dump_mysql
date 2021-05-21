@@ -18,10 +18,6 @@ public class MysqlConnect {
         Class.forName(driverName);
         conn= DriverManager.getConnection(url,user,root);
         System.out.println(conn);
-        Statement st=conn.createStatement();
-        st.execute("delete from category_tbl");
-        st.execute("delete from  architecture");
-        st.execute("delete from  location");
     }
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         Map<String, Map<String,Integer>> info=new HashMap<>();
@@ -42,7 +38,7 @@ public class MysqlConnect {
             String category=resultSet.getString(1);
             String time=resultSet.getString(2);
             Integer value=resultSet.getInt(3);
-            System.out.println(time);
+//            System.out.println(time);
 //            String subTime=time.substring(0,10);
 
             tmp.clear();
@@ -63,7 +59,7 @@ public class MysqlConnect {
 //        System.out.println(categoryCount);
 
         LocalDate localDate=LocalDate.now();
-        LocalDate startDate=localDate.minusDays(360);
+        LocalDate startDate=localDate.minusDays(3000);
         LocalDate vardate=startDate;
         LocalDate endBorder=localDate.plusDays(1);
 
@@ -101,6 +97,9 @@ public class MysqlConnect {
         return result;
     }
     public void  insertCategory(ResultSet resultSet) throws SQLException, ParseException {
+        Statement statement=conn.createStatement();
+        statement.execute("delete from category_tbl");
+
         Map<String, Map<String,Integer>> result=caculateAccuNums(resultSet);
 
         PreparedStatement ps=conn.prepareStatement("insert into category_tbl(time,category,`value`) values(?,?,?)");
@@ -126,6 +125,9 @@ public class MysqlConnect {
         ps.close();
     }
     public void insertLocation(ResultSet rs) throws SQLException {
+        Statement statement=conn.createStatement();
+        statement.execute("delete from  location");
+
         PreparedStatement ps=conn.prepareStatement("insert into location(location,`value`) values(?,?)");
         while (rs.next())
         {
@@ -138,6 +140,10 @@ public class MysqlConnect {
 
     public void insertArch(ResultSet arch) throws SQLException {
         System.out.println("insertArch");
+
+        Statement statement=conn.createStatement();
+        statement.execute("delete from  architecture");
+
         Statement st=conn.createStatement();
         while(arch.next())
         {

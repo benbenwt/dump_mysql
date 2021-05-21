@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7243d819-3d8d-405d-b60f-c69fd7036aec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/hive/QueryHive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/hive/QueryHive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/utils/ConsumeHive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/utils/ConsumeHive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/utils/MysqlConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/dump_mysql/utils/MysqlConnect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +14,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="dump_mysql" />
@@ -50,7 +62,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mapreduce_start" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,7 +72,13 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DevInstall\IdeaProjects\dump_mysql\src\main\resources" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -68,7 +86,7 @@
       <command value="mvn package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsumeHive">
+  <component name="RunManager" selected="Application.QueryHive">
     <configuration name="ConsumeHive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ti.dump_mysql.utils.ConsumeHive" />
       <module name="dump_mysql" />
@@ -121,10 +139,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dump_mysql_jar.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/dump_mysql_jar.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsumeHive" />
         <item itemvalue="Application.QueryHive" />
+        <item itemvalue="JAR Application.dump_mysql_jar.jar" />
+        <item itemvalue="Application.ConsumeHive" />
         <item itemvalue="Application.GenerateLocationJson" />
         <item itemvalue="Application.MysqlConnect" />
       </list>
@@ -174,6 +197,31 @@
       <workItem from="1617798559950" duration="235000" />
       <workItem from="1617802622697" duration="18000" />
       <workItem from="1617849500606" duration="416000" />
+      <workItem from="1621316615415" duration="4111000" />
+      <workItem from="1621326262855" duration="337000" />
+      <workItem from="1621328481923" duration="618000" />
+      <workItem from="1621410450415" duration="2365000" />
+      <workItem from="1621413401520" duration="702000" />
+      <workItem from="1621415531847" duration="6000" />
+      <workItem from="1621415567396" duration="11000" />
+      <workItem from="1621478343289" duration="1432000" />
+      <workItem from="1621481982533" duration="621000" />
+      <workItem from="1621484098283" duration="83000" />
+      <workItem from="1621485111891" duration="99000" />
+      <workItem from="1621485465252" duration="443000" />
+      <workItem from="1621497821108" duration="238000" />
+      <workItem from="1621499015984" duration="121000" />
+      <workItem from="1621499219525" duration="4000" />
+      <workItem from="1621504955311" duration="16000" />
+      <workItem from="1621505050514" duration="270000" />
+      <workItem from="1621506036456" duration="217000" />
+      <workItem from="1621507143534" duration="1197000" />
+      <workItem from="1621509101474" duration="411000" />
+      <workItem from="1621510105978" duration="2237000" />
+      <workItem from="1621516560418" duration="14000" />
+      <workItem from="1621516622008" duration="1794000" />
+      <workItem from="1621518983790" duration="152000" />
+      <workItem from="1621568354991" duration="998000" />
     </task>
     <servers />
   </component>
@@ -193,22 +241,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1145" y="628" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1617849544117" />
-    <state width="1499" height="212" key="GridCell.Tab.0.bottom" timestamp="1617849917370">
+    <state width="2517" height="514" key="GridCell.Tab.0.bottom" timestamp="1621569518942">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1499" height="212" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1617849917370" />
-    <state width="1499" height="212" key="GridCell.Tab.0.center" timestamp="1617849917370">
+    <state width="2517" height="514" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1621569518942" />
+    <state width="2517" height="514" key="GridCell.Tab.0.center" timestamp="1621569518942">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1499" height="212" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1617849917370" />
-    <state width="1499" height="212" key="GridCell.Tab.0.left" timestamp="1617849917370">
+    <state width="2517" height="514" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1621569518942" />
+    <state width="2517" height="514" key="GridCell.Tab.0.left" timestamp="1621569518942">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1499" height="212" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1617849917370" />
-    <state width="1499" height="212" key="GridCell.Tab.0.right" timestamp="1617849917370">
+    <state width="2517" height="514" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1621569518942" />
+    <state width="2517" height="514" key="GridCell.Tab.0.right" timestamp="1621569518942">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1499" height="212" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1617849917370" />
+    <state width="2517" height="514" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1621569518942" />
     <state width="1160" height="365" key="GridCell.Tab.1.bottom" timestamp="1615013968818">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -229,10 +277,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="929" y="430" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1615013402246" />
-    <state x="1094" y="536" width="626" height="490" key="find.popup" timestamp="1617787536498">
+    <state x="1389" y="414" width="540" height="488" key="extract.method.dialog" timestamp="1621319403712">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1094" y="536" width="626" height="490" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1617787536498" />
+    <state x="1389" y="414" width="540" height="488" key="extract.method.dialog/0.0.2560.1400@0.0.2560.1400" timestamp="1621319403712" />
+    <state x="1096" y="536" width="759" height="548" key="find.popup" timestamp="1621478611540">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1096" y="536" width="759" height="548" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1621478611540" />
     <state x="978" y="435" key="new project wizard" timestamp="1616408588374">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

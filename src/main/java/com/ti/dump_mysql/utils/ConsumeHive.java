@@ -22,7 +22,7 @@ public class ConsumeHive {
         props.put("auto.offset.reset", "latest");
         props.put("session.timeout.ms", "30000");
         props.put("max.poll.records","1000");
-        props.put("max.poll.interval.ms","10000");
+        props.put("max.poll.interval.ms","2400000");
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(props);
@@ -38,7 +38,7 @@ public class ConsumeHive {
                 System.out.println("dump hive to mysql");
                 queryHive.begin();
             }
-            Thread.sleep(1200000);
+            Thread.sleep(120000);
         }
         consumer.close();
     }
